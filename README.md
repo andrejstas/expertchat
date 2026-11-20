@@ -51,6 +51,11 @@ expert-chat/
 
 Set `EXPERT_CHAT_DATA_DIR` to keep `data/` somewhere else. The app starts with no experts; add one with the **+** button or by hand.
 
+The app also creates a few local files the first time it needs them. They're gitignored, so there's nothing to set up:
+
+- `.settings.json`: the expert and router models you pick in the UI (defaults in `lib/models.ts`)
+- `.usage.jsonl`, `.usage-config.json`: usage tracking and its calibration for the usage bar
+
 ## Adding an expert
 
 Create `data/experts/my-expert.md`:

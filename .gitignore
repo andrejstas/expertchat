@@ -21,3 +21,6 @@ data/
 # Local notes (backlog, decision log)
 ideas.md
 decisions.md
+
+# Local Claude Code skills and settings
+.claude/

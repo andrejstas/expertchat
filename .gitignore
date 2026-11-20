@@ -1,0 +1,23 @@
+node_modules
+.next
+.next-prod
+out
+.env*.local
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+.env.local
+.idea
+
+# Local-only state — chats and usage tracking
+.usage.jsonl
+.usage-config.json
+.settings.json
+chats/
+
+# Personal data — its own git repo (experts + memory)
+data/
+
+# Local notes (backlog, decision log)
+ideas.md
+decisions.md
